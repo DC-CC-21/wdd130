@@ -63,7 +63,7 @@ footer p {
   margin: auto;
 }
 
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 280px) {
   header nav,
   footer {
     flex-direction: column;
@@ -73,9 +73,12 @@ footer p {
   }
 
   #profile {
-    padding: 5px;
+    padding-top: 5px;
     margin: auto;
+    width:100%;
   }
+
+
 }
 
 @media only screen and (min-width: 800px) {
