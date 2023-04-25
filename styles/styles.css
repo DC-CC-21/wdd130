@@ -1,0 +1,39 @@
+nav {
+  background-color: steelblue;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  display: block;
+  padding: 20px;
+}
+
+h1 {
+  color: steelblue;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
+p {
+  padding: 0;
+}
+
+main {
+  max-width:  840px;
+}
+
+aside {
+  margin:1em;
+  border: 1px solid #00000033;
+  padding:1em;
+  background-color: #eee;
+  color:#333;
+  text-align: center;
+}
