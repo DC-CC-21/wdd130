@@ -1,22 +1,20 @@
-@import url("font");
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 :root {
-  --primary-color: #aaaaaa;
-  --secondary-color: #aaaaaa;
-  --accent1-color: #aaaaaa;
-  --accent2-color: #aaaaaa;
+  --primary-color: #4fd600;
+  --secondary-color: #2ae4eb;
+  --accent1-color: #2f9400;
+  --accent2-color: #ff0000;
+  --heading-font: "Permanent Marker", serif;
+  --paragraph-font: Arial, serif;
 
-  --heading-font: "_" serif;
-  --paragraph-font: "_", serif;
-
-  --nav-background-color: #aaaaaa;
-  --nav-link-color: #000000;
-  --nav-hover-link-color: #aaaaaa;
-  --nav-hover-background-color: #000000;
+  --nav-background-color: #0084ff;
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #000000;
+  --nav-hover-background-color: #75eaff;
 }
 
 body {
-  font: var(--paragraph-font);
+  font-family: var(--paragraph-font);
   max-width: 960px;
   padding: 20px;
 }
