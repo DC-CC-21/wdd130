@@ -49,8 +49,11 @@ aside img {
 
 aside h2 {
   position: absolute;
-  top: 40px;
+  top: 100px;
   left: 150px;
+  background-image: linear-gradient(90deg, #ffffffa6, #ffffffcb, #ffffff);
+  padding:5px;
+  border-radius: 10px;
 }
 
 footer {
