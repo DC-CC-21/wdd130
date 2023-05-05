@@ -121,6 +121,7 @@ main {
     position: relative;
 }
 
-footer{
+footer > a{
     position:relative;
-}
+    text-decoration: none;
+  }
