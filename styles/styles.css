@@ -10,7 +10,7 @@ nav {
   display:flex;
   justify-content: space-evenly;
   align-items: center;
-
+  flex-direction: row;
 }
 
 nav a {
@@ -22,8 +22,9 @@ nav a {
   padding: 20px;
 }
 
-header h1{
+#name{
   border-bottom:1px solid steelblue;
+  margin-bottom:15px;
 }
 
 h1 {
