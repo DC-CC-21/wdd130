@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+main{
+    width:600px;
+    margin:auto;
+    display:grid;
+    padding:1.5rem;
+    background-color: #eee;
+}
+
+div {
+    display:flex;
+    flex-direction: column;
+    margin:1rem 0;
+}
+
+code{
+    background-color:#333;
+    color:white;
+    padding:0.5rem;
+    width:70%;
+    margin:.5rem auto;
+}
+
+label{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p{
+    color:#17148c;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+
+
+input, select, textarea{
+    border-radius: 0;
+
+}
+
+input, select{
+    height:2rem;
+    font-size: 1.1rem;
+}
+
+textarea{
+    height:5rem;
+}
+
+select{
+    background-color: white;
+    color: black;
+}
+
+button{
+    background-color: #000080;
+    color:white;
+    margin:auto;
+    width:100%;
+    padding:1rem;
+    font-size: larger;
+    border-radius: .5rem;
+}
