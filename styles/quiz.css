@@ -4,11 +4,14 @@
 
 }
 
-main{
+main, header{
     width:600px;
     margin:auto;
-    display:grid;
+}
+
+main{
     padding:1.5rem;
+    display:grid;
     background-color: #eee;
 }
 
@@ -67,4 +70,8 @@ button{
     padding:1rem;
     font-size: larger;
     border-radius: .5rem;
+}
+h1{
+    margin:auto;
+    text-align: center;
 }
