@@ -13,7 +13,7 @@
   --paragraph-font: Arial, serif;
 
   --nav-background-color: #0084ff;
-  --nav-link-color: #ffffff;
+  --nav-link-color: #000000;
   --nav-hover-link-color: #000000;
   --nav-hover-background-color: #75eaff;
 }
@@ -140,11 +140,25 @@ main {
 footer > a {
   position: relative;
   text-decoration: none;
+  padding-right:5px;
 }
+
+.mediaImg{
+  margin-left:2rem;
+}
+div#checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+}
+
+
 footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width:100%;
 }
 
 .adv {
@@ -184,8 +198,8 @@ footer {
 }
 
 #contactInformation {
-  background-color: #3ba100;
-  color: rgb(255, 255, 255);
+  background-color: #4fd900;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   padding: 0.5rem;
   border-radius: 1rem;
@@ -266,12 +280,19 @@ input:not([type="radio"]) {
   padding: 5px;
 }
 
+#images{
+  margin:auto;
+}
+
 #images figure{
-  width:100%;
-  padding:0;
+  width:95%;
+  margin:auto;
+  padding:5px;
   margin:0;
   font-size:1em;
   font-weight: 100;
+  border:1px solid black;
+  font-size:small;
 }
 
 #contactInfo label{
